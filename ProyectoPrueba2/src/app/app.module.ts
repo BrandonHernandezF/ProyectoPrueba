@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrandonComponent } from './Alumnos/brandon/brandon.component';
+import { BrandonComponent } from './Alumnos/apartadobrandon/brandon/brandon.component';
+import { ApartadobrandonModule } from './Alumnos/apartadobrandon/apartadobrandon.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { BrandonComponent } from './Alumnos/brandon/brandon.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
