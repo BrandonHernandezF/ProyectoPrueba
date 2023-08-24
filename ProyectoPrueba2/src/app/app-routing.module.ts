@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import { BrandonComponent } from './alumnos/brandon/brandon.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {
-    path: 'alumnos',
-    loadChildren: () => import('./Alumnos/alumnos.module').then(m => m.AlumnosModule),
-  }
+  { path: '', component: HomeComponent},
+  { path: 'brandon', component: BrandonComponent }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
