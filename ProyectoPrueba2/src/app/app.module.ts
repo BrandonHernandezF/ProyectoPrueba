@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrandonComponent } from './alumnos/brandon/brandon.component';
 import { HomeComponent } from './home/home.component';
+import { ArturoComponent } from './alumnos/arturo/arturo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BrandonComponent,
-    HomeComponent
+    HomeComponent,
+    ArturoComponent
   ],
   imports: [
     BrowserModule,
